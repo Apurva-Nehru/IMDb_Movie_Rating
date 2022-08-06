@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter contextMode="false" field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="/home/nfrancisco/Talend/Logiciels/TOS/4.0.0RC1/Install/TOS-All-r38438-V4.0.0RC1/workspace"/>
+    <elementParameter contextMode="false" field="DIRECTORY" name="COMP_DEFAULT_PROJECT_DIR" value="/home/nfrancisco/Talend/Logiciels/TOS/4.0.0RC1/Install/TOS-All-r38438-V4.0.0RC1/workspace/TALENDDEMOSJAVA"/>
+    <elementParameter contextMode="false" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
+    <elementParameter contextMode="false" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter contextMode="false" field="TEXT" name="AUTHOR" value="ocarbone@talend.com"/>
+    <elementParameter contextMode="false" field="TEXT" name="STATUS" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="NAME" value="step2ModifyData"/>
+    <elementParameter contextMode="false" field="TEXT" name="VERSION" value="0.1"/>
+    <elementParameter contextMode="false" field="TEXT" name="PURPOSE" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="DESCRIPTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter contextMode="false" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter contextMode="false" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter contextMode="false" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter contextMode="false" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Talend/Logiciels/TOS/TOS2.4.2/Install/TOS-All-r17347-V2.4.2/workspace/in.csv&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="tDBInput"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_10"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:NH6waKLkKuQ6hKElMdYCd3lBuoVSB7qvKZGLRVBy"/>
+    <elementParameter contextMode="false" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter contextMode="false" field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/Logiciels/TOS/TOS2.4.2/Install/TOS-All-r17347-V2.4.2/workspace/.metadata&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_TYPE" value="tDBOutput"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_10"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hcSTb4IQ3H6ZIHHoUqc6ALZT3fJUM+5QpG3ECGsO"/>
+    <elementParameter contextMode="false" field="FILE" name="DBFILE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter contextMode="false" field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter contextMode="false" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <routinesParameter id="_BzsnoJWBEd2-2urAiuZBEg" name="DataOperation"/>
+    <routinesParameter id="_B9YvIJWBEd2-2urAiuZBEg" name="Mathematical"/>
+    <routinesParameter id="_B9rqE5WBEd2-2urAiuZBEg" name="Numeric"/>
+    <routinesParameter id="_B9rqF5WBEd2-2urAiuZBEg" name="Relational"/>
+    <routinesParameter id="_B91bE5WBEd2-2urAiuZBEg" name="StringHandling"/>
+    <routinesParameter id="_B91bF5WBEd2-2urAiuZBEg" name="TalendDataGenerator"/>
+    <routinesParameter id="_B9-lAJWBEd2-2urAiuZBEg" name="TalendDate"/>
+    <routinesParameter id="_B9-lBJWBEd2-2urAiuZBEg" name="TalendString"/>
+    <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+  </parameters>
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1"/>
+    <elementParameter contextMode="false" field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter contextMode="false" field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="idstate"/>
+      <elementValue elementRef="ARRAY" value="Integer.decode(globalMap.get(&quot;idStatesMax&quot;).toString())  "/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="labelstate"/>
+      <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6)"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tRowGenerator_1">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="224">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_1"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_agCZsMvyEdu0-pmJiEk0sg"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="TYPE" value="MySQL"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;demoproject&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:C5dOAP9TqQhwu22gAhFf0TdVZ68gWjJk9mCg+/GY9y3Q9w=="/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE" value="&quot;states&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_s8-ecIftEd2Bye_XRHWwSA - states"/>
+    <elementParameter contextMode="false" field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter contextMode="false" field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="CHECK" name="EXTENDINSERT" value="false"/>
+    <elementParameter contextMode="false" field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter contextMode="false" field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
+    <elementParameter contextMode="false" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter contextMode="false" field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter contextMode="false" field="TABLE" name="ADD_COLS"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="idstate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="labelstate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="HINT_OPTIONS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="DUPLICATED_KEYS"/>
+    <elementParameter contextMode="false" field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter contextMode="false" field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;     &lt;b&gt;__DATA_ACTION__&lt;/b&gt;"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
+    <metadata connector="FLOW" name="tMysqlOutput_1">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="352">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_agCZsMvyEdu0-pmJiEk0sg"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;demoproject&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="TYPE" value="MySQL"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AqCtZWKtwf+VjG+D+X6kMmUHv09QTjudiDc+w67C4SbXKQ=="/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE" value="&quot;states&quot;"/>
+    <elementParameter contextMode="false" field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter contextMode="false" field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="MEMO_SQL" name="QUERY" value="&quot;SELECT states.idstate, states.labelstate FROM states&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="idstate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="labelstate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="TEXT" name="HINT" value="__UNIQUE_NAME__"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tMysqlInput_1">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+  </node>
+  <node binaryData="" componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="352" stringData="">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter contextMode="false" field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter contextMode="false" field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value="&quot;C:/Talend/Logiciels/TOS/TOS2.4.2/Install/TOS-All-r17347-V2.4.2/workspace/temp&quot;"/>
+    <elementParameter contextMode="false" field="IMAGE" name="PREVIEW" value="_du8joIkiEd244dQM-KCINQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter contextMode="false" field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <metadata connector="FLOW" label="ToStates" name="ToStates">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="ToStates" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="FromStates.idstate" name="idstate" type="id_Integer"/>
+        <mapperTableEntries expression="StringHandling.UPCASE(FromStates.labelstate) " name="labelstate" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables matchingMode="UNIQUE_MATCH" name="FromStates" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="idstate" type="id_Integer"/>
+        <mapperTableEntries name="labelstate" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="352">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_2"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_agCZsMvyEdu0-pmJiEk0sg"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="TYPE" value="MySQL"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;demoproject&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QHmXc/IrF9Z1vykiD4UK4kyqDmsqOMcv0NAYXX+hffRi1Q=="/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE" value="&quot;states&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_s8-ecIftEd2Bye_XRHWwSA - states"/>
+    <elementParameter contextMode="false" field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter contextMode="false" field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="CHECK" name="EXTENDINSERT" value="false"/>
+    <elementParameter contextMode="false" field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter contextMode="false" field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
+    <elementParameter contextMode="false" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter contextMode="false" field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter contextMode="false" field="TABLE" name="ADD_COLS"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="idstate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="labelstate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="HINT_OPTIONS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="DUPLICATED_KEYS"/>
+    <elementParameter contextMode="false" field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter contextMode="false" field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;     &lt;b&gt;__DATA_ACTION__&lt;/b&gt;"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
+    <metadata connector="FLOW" name="tMysqlOutput_2">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="480">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_2"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_agCZsMvyEdu0-pmJiEk0sg"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;demoproject&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="TYPE" value="MySQL"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jchvANX4OK7/89XsXNw2P8MC0RoAgjdfMBYWCfwskmieEw=="/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE" value="&quot;states&quot;"/>
+    <elementParameter contextMode="false" field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter contextMode="false" field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="MEMO_SQL" name="QUERY" value="&quot;SELECT states.idstate, states.labelstate FROM states WHERE idstate=&quot;+Integer.decode(globalMap.get(&quot;idStatesMax&quot;).toString())"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="idstate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="labelstate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="TEXT" name="HINT" value="__UNIQUE_NAME__"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tMysqlInput_2">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="480">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_3"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_agCZsMvyEdu0-pmJiEk0sg"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="TYPE" value="MySQL"/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;demoproject&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vlLbeNcLjo8vAkoJ6YF8h2pcX1E1btU+is/jQjlUcY91DA=="/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE" value="&quot;states&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DATA_ACTION" value="DELETE"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_s8-ecIftEd2Bye_XRHWwSA - states"/>
+    <elementParameter contextMode="false" field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter contextMode="false" field="MAPPING_TYPE" name="MAPPING" value="mysql_id"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="CHECK" name="EXTENDINSERT" value="false"/>
+    <elementParameter contextMode="false" field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter contextMode="false" field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
+    <elementParameter contextMode="false" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter contextMode="false" field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter contextMode="false" field="TABLE" name="ADD_COLS"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="idstate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="labelstate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="HINT_OPTIONS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="DUPLICATED_KEYS"/>
+    <elementParameter contextMode="false" field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter contextMode="false" field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;     &lt;b&gt;__DATA_ACTION__&lt;/b&gt;"/>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
+    <metadata connector="FLOW" name="tMysqlOutput_3">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="0" key="true" length="10" name="idstate" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer"/>
+      <column comment="" key="false" length="14" name="labelstate" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_3"/>
+    <elementParameter contextMode="false" field="CHECK" name="START" value="true"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_agCZsMvyEdu0-pmJiEk0sg"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter contextMode="false" field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter contextMode="false" field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="DBNAME" value="&quot;demoproject&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="TYPE" value="MySQL"/>
+    <elementParameter contextMode="false" field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter contextMode="false" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:plEUWAD2ea1XuYe5mSXfkyI8raFvl++OGiRDTJ32s+60QA=="/>
+    <elementParameter contextMode="false" field="DBTABLE" name="TABLE" value="&quot;states&quot;"/>
+    <elementParameter contextMode="false" field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter contextMode="false" field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="MEMO_SQL" name="QUERY" value="&quot;select MAX(idstate) from states&quot;"/>
+    <elementParameter contextMode="false" field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter contextMode="false" field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter contextMode="false" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter contextMode="false" field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="max"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tMysqlInput_3">
+      <column comment="" key="false" name="max" nullable="true" originalDbColumnName="" pattern="" sourceType="" type="id_Integer"/>
+    </metadata>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="64">
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1"/>
+    <elementParameter contextMode="false" field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;idStatesMax&quot;"/>
+      <elementValue elementRef="VALUE" value="row3.max+1"/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter contextMode="false" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter contextMode="false" field="MEMO" name="COMMENT" value=""/>
+    <metadata connector="FLOW" name="tSetGlobalVar_1">
+      <column comment="" key="false" name="max" nullable="true" originalDbColumnName="" pattern="" sourceType="" type="id_Integer"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMysqlOutput_1">
+    <elementParameter contextMode="false" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="idstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="labelstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter contextMode="false" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter contextMode="false" field="TABLE" name="THRESHLODS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMysqlInput_1">
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8"/>
+  </connection>
+  <connection connectorName="FLOW" label="FromStates" lineStyle="0" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tMap_1">
+    <elementParameter contextMode="false" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="idstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="labelstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter contextMode="false" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter contextMode="false" field="TABLE" name="THRESHLODS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="FromStates"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tMysqlInput_2">
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9"/>
+  </connection>
+  <connection connectorName="FLOW" label="ToStates" lineStyle="0" metaname="ToStates" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tMysqlOutput_2">
+    <elementParameter contextMode="false" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="idstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="labelstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter contextMode="false" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter contextMode="false" field="TABLE" name="THRESHLODS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="ToStates"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tMysqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_2" target="tMysqlOutput_3">
+    <elementParameter contextMode="false" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="idstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="labelstate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter contextMode="false" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter contextMode="false" field="TABLE" name="THRESHLODS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tMysqlInput_3" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_3" target="tSetGlobalVar_1">
+    <elementParameter contextMode="false" field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter contextMode="false" field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="max"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter contextMode="false" field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter contextMode="false" field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter contextMode="false" field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter contextMode="false" field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter contextMode="false" field="TABLE" name="THRESHLODS"/>
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="row3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMysqlInput_3" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_3" target="tRowGenerator_1">
+    <elementParameter contextMode="false" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk10"/>
+  </connection>
+  <subjob>
+    <elementParameter contextMode="false" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1"/>
+    <elementParameter contextMode="false" field="TEXT" name="SUBJOB_TITLE" value="Insert one line where idstate= idstate max"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;128;255"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1"/>
+    <elementParameter contextMode="false" field="TEXT" name="SUBJOB_TITLE" value="Updates all the lines (puts in upcase all the labelstates)"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;128;255"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_2"/>
+    <elementParameter contextMode="false" field="TEXT" name="SUBJOB_TITLE" value="Deletes the last data inserted"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;128;255"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter contextMode="false" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter contextMode="false" field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_3"/>
+    <elementParameter contextMode="false" field="TEXT" name="SUBJOB_TITLE" value="To retreive the idstate max"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_TITLE_COLOR" value="128;128;255"/>
+    <elementParameter contextMode="false" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_84bd16ce-e1e1-4b8f-aa62-e2fe3dad3939"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pjtIfj6LrgjBfk/sHw5VC7VuPnbM2OS44e6VIfyc0HQ+pmiuq7mXElNGPZH15S2IMTpE4x0BExZ2&#13;
+p/N5GOP8rA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ad255445-1125-4655-9a81-5a8b974d9ce8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Rw/U0eEJdCPU3A03DMv4eXOLBbBeds8StqzFz4g8at86JODS+r2NjvamyPKdfzcS6QwfawShgcFP&#13;
+C7Oco2te/g==</DigestValue></Reference></SignedInfo><SignatureValue>gFkGzmOs4ryZjz0YvNxaarraogAEhn+dhqfBq16IlXDjH54CDdHgWhtL7DZtJSLXObbGyUnLY5y7&#13;
+vzX1yGT17AZWaf+ivQOBtUttrj4T4GyUFXh3PvF1G9v1X2LEKZ4DxNSRtO+fO1I55mII+mRcXbVo&#13;
+0ew9sjBnRp9Pu2z3BHEMFrI0UtrxMgWfiCSazeh5VKJsuiWund8F6WAMFXOlPHcjGWAJQzHpxN9P&#13;
+xqW6RNgf00uG3lpCHEQhWL8/Gv6qFIHWOSDXGNR/bEwu/8zSukwcwHld2yrNqmsrt0eDP20SWYN6&#13;
+9hcNdjSXk4aKbXxjRAIkcXeWyM0Xvmm31XRTfQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ad255445-1125-4655-9a81-5a8b974d9ce8" Target="#_84bd16ce-e1e1-4b8f-aa62-e2fe3dad3939"><Timestamp>2021-10-20 08:34:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

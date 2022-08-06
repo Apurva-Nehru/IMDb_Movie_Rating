@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmi:version="2.0">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="LOC">
+      <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="DI_CNTL"/>
+      <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="info7370"/>
+      <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="1433"/>
+      <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value=""/>
+      <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_Password" value="enc:system.encryption.key.v1:tQZYwBLk1AXNRo5xCv+1VBqZujmB/x0kiC3Vgwzn3H6BeK5z"/>
+    </context>
+    <context confirmationNeeded="false" name="PRD">
+      <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="DI_CNTL"/>
+      <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="info7370"/>
+      <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="1433"/>
+      <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value=""/>
+      <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_Password" value="enc:system.encryption.key.v1:w/JDxvf48PvRWcq7fj+wuhN4EtKXwS4pN76ViJGq70WoQbOB"/>
+    </context>
+    <context confirmationNeeded="false" name="DEV">
+      <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="DI_CNTL"/>
+      <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="info7370"/>
+      <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="1433"/>
+      <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value=""/>
+      <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_Password" value="enc:system.encryption.key.v1:rYJkObw65NvBfhpr8xAxUd1857mqiijgxT3+iQON7odpEKzG"/>
+    </context>
+    <context confirmationNeeded="false" name="TST">
+      <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="DI_CNTL"/>
+      <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="info7370"/>
+      <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="1433"/>
+      <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value=""/>
+      <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_Password" value="enc:system.encryption.key.v1:V2ez4Z9An312FAIlIvvpF4XUqvEALHp7czfUo0LWPDGFEuW9"/>
+    </context>
+    <context confirmationNeeded="false" name="SBX">
+      <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="DI_CNTL"/>
+      <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="info7370"/>
+      <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="1433"/>
+      <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value=""/>
+      <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_Password" value="enc:system.encryption.key.v1:FTlJFHNWA8XEqHSeUJZ338JXR+yHA8MMuXiycbPfFxeuRHZb"/>
+    </context>
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="DI_CNTL"/>
+      <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="info7370"/>
+      <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="1433"/>
+      <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value=""/>
+      <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_Password" value="enc:system.encryption.key.v1:ZwYNHTIrzP3xohW66xz2hyhIptRZYOg/qbvb9l73u0Hzu9Qs"/>
+    </context>
+    <context confirmationNeeded="false" name="a">
+      <contextParameter comment="" name="DI_CNTL_Schema" prompt="DI_CNTL_Schema?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="DI_CNTL_Database" prompt="DI_CNTL_Database?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="DI_CNTL"/>
+      <contextParameter comment="" name="DI_CNTL_Login" prompt="DI_CNTL_Login?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="info7370"/>
+      <contextParameter comment="" name="DI_CNTL_Server" prompt="DI_CNTL_Server?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="DI_CNTL_Port" prompt="DI_CNTL_Port?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value="1433"/>
+      <contextParameter comment="" name="DI_CNTL_AdditionalParams" prompt="DI_CNTL_AdditionalParams?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_String" value=""/>
+      <contextParameter comment="" name="DI_CNTL_Password" prompt="DI_CNTL_Password?" promptNeeded="false" repositoryContextId="_3w0Z8PwDEemOBcAAdKZmSw" type="id_Password" value="enc:system.encryption.key.v1:hZ2vDhJRlNxOWwIIfeeC7kXg51SLNAOoPZqFkTsckE3kpXwA"/>
+    </context>
+    <parameters>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;D:/Talend/workspace_jackie/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+      <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_11"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:QNhs+VGsB/HUh6IIRUYkkwKmHJTzQoOCaGWWqhRr"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+      <routinesParameter id="_gHt69mI7EeqL18PF2MyE_w" name="Relational"/>
+      <routinesParameter id="_gIBc-mI7EeqL18PF2MyE_w" name="TalendString"/>
+      <routinesParameter id="_gIKm6WI7EeqL18PF2MyE_w" name="TalendStringUtil"/>
+      <routinesParameter id="_gH3r-WI7EeqL18PF2MyE_w" name="TalendDataGenerator"/>
+      <routinesParameter id="_gGwRrGI7EeqL18PF2MyE_w" name="DataQuality"/>
+      <routinesParameter id="_gHppgGI7EeqL18PF2MyE_w" name="Numeric"/>
+      <routinesParameter id="_gG6CqWI7EeqL18PF2MyE_w" name="DataQualityDependencies"/>
+      <routinesParameter id="_gHDMm2I7EeqL18PF2MyE_w" name="DqStringHandling"/>
+      <routinesParameter id="_gGwRomI7EeqL18PF2MyE_w" name="DataMasking"/>
+      <routinesParameter id="_gHWuoGI7EeqL18PF2MyE_w" name="Mathematical"/>
+      <routinesParameter id="_gHt7AGI7EeqL18PF2MyE_w" name="StringHandling"/>
+      <routinesParameter id="_gHWulmI7EeqL18PF2MyE_w" name="DataOperation"/>
+      <routinesParameter id="_gHDMpWI7EeqL18PF2MyE_w" name="DQTechnical"/>
+      <routinesParameter id="_gHM9mWI7EeqL18PF2MyE_w" name="SQLike"/>
+      <routinesParameter id="_gIBc8GI7EeqL18PF2MyE_w" name="TalendDate"/>
+    </parameters>
+    <node componentName="DI_CNTL_LogCatcher" componentVersion="8.1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="288">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="DI_CNTL_LogCatcher_rs_1"/>
+      <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+      <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+      <elementParameter field="TEXT" name="LABEL" value="DI_CNTL_LogCatcher"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </node>
+    <node componentName="DI_CNTL_AssertCatcher" componentVersion="8.1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="416">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="DI_CNTL_AssertCatcher_rs_1"/>
+      <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+      <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+      <elementParameter field="TEXT" name="LABEL" value="DI_CNTL_AssertCatcher"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </node>
+    <node componentName="DI_DataOps_JobStats" componentVersion="8.4" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="DI_DataOps_JobStats_1"/>
+      <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+      <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+      <elementParameter field="TEXT" name="LABEL" value="DI_DataOps_JobStats"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </node>
+    <node componentName="DI_DataOps_FlowMeterCatcher" componentVersion="8.1" offsetLabelX="0" offsetLabelY="0" posX="896" posY="160">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="DI_DataOps_FlowMeterCatcher_1"/>
+      <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+      <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+      <elementParameter field="TEXT" name="LABEL" value="DI_DataOps_FlowMeterCatcher"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </node>
+    <note opaque="true" posX="128" posY="32" sizeHeight="64" sizeWidth="993" text="Joblet calls other joblets to handle errors, record process metadata and statistics and enable flowmeter (Athena IT Solutions)">
+      <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+      <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+      <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
+      <elementParameter field="TEXT" name="FONT_SIZE" value="12"/>
+      <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+      <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="255;255;255"/>
+    </note>
+    <note opaque="true" posX="352" posY="128" sizeHeight="64" sizeWidth="385" text="Joblet records job stats&#13;&#10;and status to DataOps db">
+      <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+      <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+      <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
+      <elementParameter field="TEXT" name="FONT_SIZE" value="12"/>
+      <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+      <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="255;255;255"/>
+    </note>
+    <note opaque="true" posX="352" posY="256" sizeHeight="64" sizeWidth="385" text="Joblet records error messages to DataOps db">
+      <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+      <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+      <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
+      <elementParameter field="TEXT" name="FONT_SIZE" value="12"/>
+      <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+      <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="255;255;255"/>
+    </note>
+    <note opaque="true" posX="352" posY="384" sizeHeight="64" sizeWidth="385" text="Joblet records error messages to DataOps db">
+      <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+      <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+      <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
+      <elementParameter field="TEXT" name="FONT_SIZE" value="12"/>
+      <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+      <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="255;255;255"/>
+    </note>
+    <note opaque="true" posX="1056" posY="128" sizeHeight="64" sizeWidth="353" text="Joblet enables flowmeter functionality">
+      <elementParameter field="COLOR" name="NOTE_COLOR" value="225;225;135"/>
+      <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+      <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+      <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
+      <elementParameter field="TEXT" name="FONT_SIZE" value="12"/>
+      <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+      <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="255;255;255"/>
+    </note>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="DI_CNTL_LogCatcher_rs_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Error handling. Records errors in cntl_LogCatcher"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;128"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;255"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="DI_CNTL_AssertCatcher_rs_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Error handling. Records specific errors in cntl_AssertCatcher"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;128"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;255"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="DI_DataOps_JobStats_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Updates cntl_statsCatcher &amp; cntl_JobStats tables. Triggered at beginning and end of every sublob. Also triggered if individual compnents enable statistics (discouraged)"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;128"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;255"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="DI_DataOps_FlowMeterCatcher_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Enables flow catcher to write to cntl_FlowMeterCatcher"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;128"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;255"/>
+    </subjob>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray innerContent="89504E470D0A1A0A0000000D4948445200000020000000200802000000FC18EDA3000006DD49444154789C859679508E6D14C61F0AD3146AA8B11432933D3B2D22B224240959C616925624CAC896B136516314A6198649534365692632D354F6AD0D4568575906598BF87D9DBEC7FBBD9FE5FEE399E779DFFB3ECB75AE739D5BF9FE9B555F5FFFFF1F1B1B1BBF7CF9F2F5EB57DE1B1A1A525252962C5972F6EC59F9FCF6ED1B1B64A7ECE1A9FCCE0186B44C6B7E627ADEBC791B376EDCB66DDB9C3973929292C4B7A669FCF1F25B075AD6253A8E656464AC5EBD7AE0C081C3860D0B0C0C3C77EE9CBDBDBD9595951A10A9A86EFEE440FCB33E7FFE2C2F972F5F0E0D0D9D346952D7AE5D2D2D2D77ECD8B16AD52A3F3F3FDC383A3AC6C5C57DFAF4490B008CFCC981C022CF478F1EB9BBBB1B1A1A12EF860D1B962E5DBA6EDD3A0F0F0F5B5BDBC3870F2726268E1A352A2D2D4DCD40CDFB4F10A969161717EFDDBBD7CCCCAC5BB76E8B162D5ABF7EBD8D8D4DFFFEFD79397EFC784444C4D6AD5BF5F5F5C9E6E3C78F9A07C9E3EF35A8A8A8E0FCC489138971CD9A35D6D6D61D3B761C346810E1EFD9B387928C1F3FBE75EBD69D3A759A3A756A4242C2870F1F1A9B166701EDEF0EAE5EBD4AB0E08EB9B76FDF12B5A9A9A99B9BDBA953A7020202C68D1BD7AA55AB1E3D7A383B3BCF9C39B34F9F3EC9C9C96A06DFD522ABC0A90BE794B7B6B676F3E6CDC6C6C690B2B2B2124C79FAF8F8608E4A4C9E3C594C93D9912347484B5757D7C5C58524D4E2299AADC10235D5D9BB77EF626363274C98003E57AE5C79FDFA354F365070575757737373B844A9A3A2A2D6AE5DEBE5E5050BE0D8800103222323A54F792A2A1DD51749900C9E3F7F0E14A3478F8E8E8E966200F19B376F8889DA82C6B469D3B0EEEFEFDFB76F5FB05ABE7C3930EEDAB56BCC983154FE6791318D51AD2EE747CC11268D4AC8FCF2E2C50BDAEAE5CB976C20B94D9B3651D5D9B36753DE7EFDFAEDDFBF7FFEFCF90B172E3C70E00049D0868F1F3F6EAE01B68045653D79113EB6D86D6464C4819A9A1A09222F2F0F22CACE8B172F0288898909A92C5BB62C3535D5DBDB7BE8D0A10E0E0E94012E900D31351759CEA828F107A4842DB0BEA8A8E8E6CD9B1440DD897B4A4D63031DB103D482050BC00716F9FAFAF20283E1187D4E31144D1513076470FEFC79C0C1C1DDBB77A1262D0A9D34AB05FDE3E3E3A90A588312741A3162C4E0C183E99813274EE083568778B85454F113D31C7EF2E409C9822369BE7FFF9E780B0A0AD8F0EAD52B5A1A7F942E2727872000965C1128B408D68684840C1932849A438D2E5DBAD0F90894368BCACACA681F0B0B0B540116896369080CA110040B77293595C713009E3E7D1A81225E401F3972249D81B8EAE9E9D13DF9F9F93F6B20AA9995953565CA14428012757575F2575555155C426DDAB469D3B2654B4283FE7413EE29F5850B17304D670405058149FBF6ED81976AF7EEDDFBE1C387FFC94070B875EB1698501F08C38F38E63C6AA334AD162D5AF0040142E1D4F5EBD7810B16A05100D5BD7BF7B66DDBCE9A358BBEA3B16FDFBEAD48E0A08F758292CFEAEAEA83070F3E7DFA14C4A82487095CACF3A2A3A383FE40184E011D31415F208514E043C7013202337CF8F03B77EEFC82453C1F3C7810161676EDDA35760002AD646060C030C07ABB76ED089F17E0A6C242101C3018B088AE040707A31C100494B0A3682A9D3AE8737373D971FFFE7D4ED2A2404F68767676F8E8D5AB17A6C9867819F7A26BF7EEDD83AC2B56ACA027900AC287A9E807145044E33485087FC04A9A34179EE09FC83DA6F59B56E7CE9DC5015353F4E0D2A54BE80F9D85D06EDFBE9D02CC9D3B97B90DAD7FCE03552DF001386480E0DCB871839E10E8D532A0C9BC302420A8A0048C880FFDCC7CE6201A8304C0E9C2C2C2662DD2BA9550FD7DFBF6E1008866CC982116759A162F7CE20CCD01627A85FD3015CD80CAA08F0FB2C719AD8AA228023D0EC840B0A27DE02FE9C31F5082E012B81054F260D159854D8BB3281D0E900754887EDCB265CBD8B1639D9C9C08B1592ACACBCBB94BC5C4C4404D3E9F3D7B061910517C430CB148F812BBB801044A555252C259F487927A7A7AD280B8993E7D3A17009AA3F9664767610E254146D8810FD84DB20811D12103CABF0B070214D9302919D7B00843384042407FF1E2C5549B24685551018537FEA0EE3C9146EA73E8D0A1D2D2521CC81D84708817A64AA9052816B5C9CCCC04E5ECEC6CC4198181A3E079F4E851944A66CC3F03878270734241D1F7F4F474A8462CF09A39CE611060AA28BF5A742C940F0F0F3F79F22497D40E1D3A10CA993367B406B0C2AF709162C207E4854B0E0E200F10334F76EEDC8902731809431DE906EE2F6859CF9E3D99D52481EC002F9C21031212960B279B33D8BD7B3790010BB6601819305E6011E7B934102674860F88EBCA952BC18DEB349B899A2640EE09990BC0B163C764AC226512BB4C56D60F5707B610634EF8420000000049454E44AE426082"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4901d057-75f2-4f92-894b-6efbe1a7d829"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>srXkCd2BHGXb5zdNDcaOPjYDVGiEYoaz0oDGXzVEGSyY1SuPk0tIpiX25VXiCziqekIuPQSt15wX&#13;
+fCq9gfOrnw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e9730970-490b-4077-bb6b-ac2fad1e61f9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>I8Jx6u8yYdiQJuhlnN/ye+XEjhpS9iDTuzbkPCRZ05qIbQFQ6bzRTfVyzcSXi+Xm4XMG0U+dGwly&#13;
+d4Q5oT8G8w==</DigestValue></Reference></SignedInfo><SignatureValue>kYL8wwU2SHo+sE9lwBE0vZDoLK8bZmo8urvsTwRorK9EOV/BzK7EjKlkLSkw/G5UCAwqwPoz/2Yc&#13;
+SvUyMRF24VuJSZBpL9Z2OA0K8FjCVyJWmzJnb6JQuTxs6rPzjp/jCMfRPloON7oeEsFYgIrFG9tw&#13;
+30dPli2xgCkTrnBsuPyt+eZ695LdxEMr16Zlv6SRon461GOGYW6/10ncusQmiPaoiTktCZPV8FH2&#13;
+dXgrQJYuD/U5PhQ44JjBrgmHnp3xDk6f4S0Y0MWaLvm285oR1IGUkQvpjCef+2wRLDwBxLQu3whN&#13;
+t2/xCu2/mqjg4BDoY2HfeLOC5oSyp4iL5RaCbQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e9730970-490b-4077-bb6b-ac2fad1e61f9" Target="#_4901d057-75f2-4f92-894b-6efbe1a7d829"><Timestamp>2022-04-27 22:31:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
